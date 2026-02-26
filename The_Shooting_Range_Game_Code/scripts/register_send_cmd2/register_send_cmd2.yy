@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"register_send_cmd2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"register_send_cmd2",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,34 @@
+{
+  "$GMObject":"v1",
+  "%Name":"obj_signin_controller",
+  "creationCodeFile":"objects/obj_signin_controller/CreationCode.gml",
+  "inheritCode":false,
+  "events":[
+    {
+      "$GMRObjectEvent":"v1",
+      "%Name":"Create",
+      "code":"// Initialization code for the sign-in controller\n\n// Set up any necessary variables\nusername = \"\";\npassword = \"\";\nloginSuccessful = false;\n\n// Call function to create the signboard\nscr_create_signboard();"
+    },
+    {
+      "$GMRObjectEvent":"v1",
+      "%Name":"Step",
+      "code":"// Handle user input and login logic\nif (keyboard_check_pressed(vk_enter)) {\n    // Check credentials\n    if (username == \"admin\" && password == \"password\") {\n        loginSuccessful = true;\n        // Proceed to the next room or gameplay\n        room_goto(rm_gameplay);\n    } else {\n        // Show error message\n        show_error(\"Invalid credentials, please try again.\", true);\n    }\n}\n"
+    }
+  ],
+  "properties":[
+    {
+      "name":"spriteId",
+      "value":{"name":"Spr_SignBoard","path":"sprites/Spr_SignBoard/Spr_SignBoard.yy"}
+    },
+    {
+      "name":"visible",
+      "value":true
+    },
+    {
+      "name":"depth",
+      "value":0
+    }
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0"
+}

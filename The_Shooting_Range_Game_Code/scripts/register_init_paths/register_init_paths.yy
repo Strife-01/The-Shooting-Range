@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"register_init_paths",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"register_init_paths",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

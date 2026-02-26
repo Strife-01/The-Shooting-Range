@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"user_store_add",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"user_store_add",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

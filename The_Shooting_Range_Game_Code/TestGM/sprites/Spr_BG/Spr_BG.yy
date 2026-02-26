@@ -1,0 +1,23 @@
+{
+  "$GMSprite":"v1",
+  "%Name":"Spr_BG",
+  "animationFPS":30,
+  "frames":[
+    {
+      "imageId":{"name":"Spr_SignBoard","path":"sprites/Spr_SignBoard/Spr_SignBoard.yy"},
+      "duration":1,
+      "x":0,
+      "y":0,
+      "width":1920,
+      "height":1080,
+      "originX":0,
+      "originY":0,
+      "scaleX":1,
+      "scaleY":1,
+      "rotation":0,
+      "visible":true
+    }
+  ],
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0"
+}

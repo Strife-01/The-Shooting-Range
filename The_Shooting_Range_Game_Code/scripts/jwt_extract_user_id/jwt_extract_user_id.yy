@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"jwt_extract_user_id",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"jwt_extract_user_id",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

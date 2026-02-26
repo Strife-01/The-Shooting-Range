@@ -1,0 +1,23 @@
+{
+  "$GMSprite":"v1",
+  "%Name":"Spr_SignBoard",
+  "animationFPS":30,
+  "frames":[
+    {
+      "imageId":{"name":"SignBoardImage","path":"path/to/your/signboard/image.png"},
+      "width":800,
+      "height":600,
+      "originX":400,
+      "originY":300,
+      "visible":true,
+      "collisionEnabled":true,
+      "collisionMask":0,
+      "collisionType":0,
+      "resourceType":"GMSpriteFrame",
+      "resourceVersion":"2.0"
+    }
+  ],
+  "name":"Spr_SignBoard",
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0"
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"register_read_latest",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"register_read_latest",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

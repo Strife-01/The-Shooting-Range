@@ -1,0 +1,28 @@
+{
+  "$GMSprite":"v1",
+  "%Name":"Spr_UI_Elements",
+  "frames":[
+    {
+      "imageId":1,
+      "width":1920,
+      "height":1080,
+      "originX":960,
+      "originY":540,
+      "textureId":1,
+      "spriteId":{"name":"Spr_SignBoard","path":"sprites/Spr_SignBoard/Spr_SignBoard.yy"},
+      "properties":[]
+    },
+    {
+      "imageId":2,
+      "width":800,
+      "height":600,
+      "originX":400,
+      "originY":300,
+      "textureId":2,
+      "spriteId":{"name":"Spr_SignBoard","path":"sprites/Spr_SignBoard/Spr_SignBoard.yy"},
+      "properties":[]
+    }
+  ],
+  "resourceType":"GMSprite",
+  "resourceVersion":"2.0"
+}

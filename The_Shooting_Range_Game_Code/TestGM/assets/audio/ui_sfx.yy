@@ -1,0 +1,32 @@
+{
+  "$GMAudio":"v1",
+  "%Name":"ui_sfx",
+  "sounds":[
+    {
+      "name":"sfx_button_click",
+      "path":"assets/audio/sfx_button_click.wav",
+      "volume":1.0,
+      "pitch":1.0,
+      "priority":0,
+      "loop":false
+    },
+    {
+      "name":"sfx_login_success",
+      "path":"assets/audio/sfx_login_success.wav",
+      "volume":1.0,
+      "pitch":1.0,
+      "priority":0,
+      "loop":false
+    },
+    {
+      "name":"sfx_login_failure",
+      "path":"assets/audio/sfx_login_failure.wav",
+      "volume":1.0,
+      "pitch":1.0,
+      "priority":0,
+      "loop":false
+    }
+  ],
+  "resourceType":"GMAudio",
+  "resourceVersion":"2.0"
+}

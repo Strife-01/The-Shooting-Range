@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"api_login_with_fingerprint",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"api_login_with_fingerprint",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

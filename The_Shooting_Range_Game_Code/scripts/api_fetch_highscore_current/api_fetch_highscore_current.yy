@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"api_fetch_highscore_current",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"api_fetch_highscore_current",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    container_name: shooting_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: Getoffthegrid081123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  server:
+    build:
+      context: ./Go_Database_Server
+      dockerfile: Dockerfile
+    container_name: shooting_go_server
+    restart: unless-stopped
+    depends_on:
+      - db
+    env_file:
+      - ./.env
+      - ./Go_Database_Server/.env
+    ports:
+      - "2501:8080"
+
+volumes:
+  postgres_data:
+

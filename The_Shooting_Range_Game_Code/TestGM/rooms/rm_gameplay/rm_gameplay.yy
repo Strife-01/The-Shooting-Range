@@ -1,0 +1,100 @@
+{
+  "$GMRoom": "v1",
+  "%Name": "rm_gameplay",
+  "creationCodeFile": "rooms/rm_gameplay/RoomCreationCode.gml",
+  "inheritCode": false,
+  "inheritCreationOrder": false,
+  "inheritLayers": false,
+  "instanceCreationOrder": [],
+  "isDnd": false,
+  "layers": [
+    {
+      "$GMRInstanceLayer": "",
+      "%Name": "Gameplay_Instances",
+      "depth": 0,
+      "effectEnabled": true,
+      "effectType": null,
+      "gridX": 32,
+      "gridY": 32,
+      "hierarchyFrozen": false,
+      "inheritLayerDepth": false,
+      "inheritLayerSettings": false,
+      "inheritSubLayers": true,
+      "inheritVisibility": true,
+      "instances": [],
+      "layers": [],
+      "name": "Gameplay_Instances",
+      "properties": [],
+      "resourceType": "GMRInstanceLayer",
+      "resourceVersion": "2.0",
+      "userdefinedDepth": false,
+      "visible": true
+    },
+    {
+      "$GMRBackgroundLayer": "",
+      "%Name": "Background",
+      "animationFPS": 30.0,
+      "animationSpeedType": 0,
+      "colour": 4294967295,
+      "depth": 200,
+      "effectEnabled": true,
+      "effectType": null,
+      "gridX": 32,
+      "gridY": 32,
+      "hierarchyFrozen": false,
+      "hspeed": 0.0,
+      "htiled": false,
+      "inheritLayerDepth": true,
+      "inheritLayerSettings": false,
+      "inheritSubLayers": true,
+      "inheritVisibility": false,
+      "layers": [],
+      "name": "Background",
+      "properties": [],
+      "resourceType": "GMRBackgroundLayer",
+      "resourceVersion": "2.0",
+      "spriteId": {
+        "name": "Spr_BG",
+        "path": "sprites/Spr_BG/Spr_BG.yy"
+      },
+      "stretch": false,
+      "userdefinedAnimFPS": false,
+      "userdefinedDepth": false,
+      "visible": true,
+      "vspeed": 0.0,
+      "vtiled": false,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "name": "rm_gameplay",
+  "parent": {
+    "name": "Rooms",
+    "path": "folders/Rooms.yy"
+  },
+  "parentRoom": null,
+  "physicsSettings": {
+    "inheritPhysicsSettings": false,
+    "PhysicsWorld": false,
+    "PhysicsWorldGravityX": 0.0,
+    "PhysicsWorldGravityY": 10.0,
+    "PhysicsWorldPixToMetres": 0.1
+  },
+  "resourceType": "GMRoom",
+  "resourceVersion": "2.0",
+  "roomSettings": {
+    "Height": 1080,
+    "inheritRoomSettings": false,
+    "persistent": false,
+    "Width": 1920
+  },
+  "sequenceId": null,
+  "views": [],
+  "viewSettings": {
+    "clearDisplayBuffer": true,
+    "clearViewBackground": false,
+    "enableViews": false,
+    "inheritViewSettings": false
+  },
+  "volume": 1.0
+}

@@ -1,0 +1,31 @@
+{
+  "$GMObject":"v1",
+  "%Name":"Obj_UI_Exit_Game",
+  "creationCodeFile":"objects/Obj_UI_Exit_Game/Obj_UI_Exit_Game.gml",
+  "inheritCode":false,
+  "instanceCreationOrder":[],
+  "isDnd":false,
+  "name":"Obj_UI_Exit_Game",
+  "objectSettings":{
+    "depth":0,
+    "visible":true,
+    "spriteId":{
+      "name":"Spr_UI_Elements",
+      "path":"sprites/Spr_UI_Elements/Spr_UI_Elements.yy"
+    },
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "collisionEnabled":true,
+    "collisionMask":0,
+    "collisionType":0,
+    "physicsSettings":{
+      "inheritPhysicsSettings":false,
+      "PhysicsWorld":false,
+      "PhysicsWorldGravityX":0.0,
+      "PhysicsWorldGravityY":10.0,
+      "PhysicsWorldPixToMetres":0.1
+    }
+  },
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0"
+}
