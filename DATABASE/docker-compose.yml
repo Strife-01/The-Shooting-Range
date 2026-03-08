@@ -6,7 +6,7 @@ services:
     container_name: shooting_db
     restart: unless-stopped
     environment:
-      POSTGRES_PASSWORD: Getoffthegrid081123
+      POSTGRES_PASSWORD: Pass
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
